@@ -1,36 +1,97 @@
-<!DOCTYPE html> <!--Declaração do tipo de documento - HTML 5-->
-<html lang="en"> <!--Elemento Raiz,lang - define o idioma-->
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<head> <!--Informações somente para o navegador-->
-    <meta charset="UTF-8"> <!--Acentos-->
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urbanismo</title>
+    <style>
+        /* Estilização para centralizar e melhorar o visual */
+        body {
+            /* Centralização do conteúdo no Body usando Flexbox */
+            display: flex;
+            justify-content: center; 
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .container {
+            background-color: white;
+            width: 90%; /* Ocupa 90% da tela em celulares */
+            max-width: 800px; /* Não passa de 800px em telas grandes */
+            padding: 40px;
+            border-radius: 8px; /* Bordas levemente arredondadas */
+        }
+
+        /* Ajuste da imagem para não "estourar" o container */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+
+        blockquote {
+            font-style: italic;
+            border-left: 5px solid #747474;
+            padding-left: 15px;
+            margin: 20px 0;
+            color: #555;
+        }
+    </style>
 </head>
 
-<body> <!--Tudo o que aparecera na pagina-->
-    <h1><strong>Urbanismo</strong></h1>
-    <h2> O que é o Urbanismo?</h2>
-    <p>Urbanismo é, em essência, a arte e a ciência de organizar a vida em coletividade dentro do espaço urbano. Não se
-        trata apenas de desenhar ruas ou prédios, mas de entender como a infraestrutura, o transporte, o meio ambiente e
-        as interações sociais se entrelaçam para tornar uma cidade funcional, sustentável e humana.
-    </p>
-    <p>Aqui estão os pilares que sustentam uma boa prática urbanística:</p>
-    <h3>Os pilares do urbanismo</h3>
-    <ul>
-        <li><strong>Mobilidade:</strong> Priorizar o fluxo eficiente de pessoas, não apenas de veículos. Isso inclui
-            transporte público de qualidade, ciclovias e calçadas caminháveis (o conceito de "cidades para pessoas").
-        </li>
-        <li><strong>Zoneamento e Uso do Solo:</strong> A estratégia de misturar áreas residenciais, comerciais e de
-            lazer para reduzir a necessidade de grandes deslocamentos — a ideia da "cidade de 15 minutos".</li>
-        <li><strong>Infraestrutura Verde:</strong> A integração de parques, árvores e sistemas de drenagem natural para
-            combater ilhas de calor e gerir águas pluviais.</li>
-        <li><strong>Habitação Social e Acessibilidade:</strong> Garantir que o tecido urbano seja inclusivo, permitindo
-            que diferentes camadas sociais vivam com dignidade e acesso aos mesmos serviços.</li>
-    </ul>
-    <h3>Por que o Urbanismo importa hoje?</h3>
-        <p>Com a urbanização acelerada, enfrentamos desafios como a segregação espacial e a crise climática. O urbanismo
-        moderno busca reverter o modelo de "cidades espalhadas" (urban sprawl) que exige muito gasto de energia e tempo,
-        propondo em vez disso cidades compactas e resilientes.</p>
+<body>
+    <div class="container">
+        <h1><strong>Urbanismo</strong></h1>
+        <h2> O que é o Urbanismo?</h2>
+        <p>Urbanismo é, em essência, a arte e a ciência de organizar a vida em coletividade dentro do espaço urbano. Não se
+            trata apenas de desenhar ruas ou prédios, mas de entender como a infraestrutura, o transporte, o meio ambiente e
+            as interações sociais se entrelaçam para tornar uma cidade funcional, sustentável e humana.
+        </p>
+
+        
+
+        <p>Aqui estão os pilares que sustentam uma boa prática urbanística:</p>
+        <h3>Os pilares do urbanismo</h3>
+        <ul>
+            <li><strong>Mobilidade:</strong> Priorizar o fluxo eficiente de pessoas, não apenas de veículos.</li>
+            <li><strong>Zoneamento e Uso do Solo:</strong> A ideia da "cidade de 15 minutos".</li>
+            <li><strong>Infraestrutura Verde:</strong> Gestão de águas pluviais e áreas verdes.</li>
+            <li><strong>Habitação Social:</strong> Cidades inclusivas para todos.</li>
+        </ul>
+
+        <h3>Por que o Urbanismo importa hoje?</h3>
+        <p>Com a urbanização acelerada, enfrentamos desafios como a segregação espacial e a crise climática.</p>
+
+        <article>
+            <hr>
+            <h1>Entendendo a Hierarquia das Vias</h1>
+            <p>As ruas funcionam como o sistema circulatório de uma cidade.</p>
+
+            <h2>O que é a Hierarquia Viária?</h2>
+            <p>O equilíbrio fundamental aqui é entre <strong>mobilidade</strong> e <strong>acessibilidade</strong>.</p>
+
+            <h3>1. Vias Locais (30 km/h)</h3>
+            <p>Prioridade para o acesso aos imóveis e trânsito calmo.</p>
+
+            <h3>2. Vias Coletoras (40-50 km/h)</h3>
+            <p>Coletam o tráfego das ruas locais para as arteriais.</p>
+
+            <h3>3. Vias Arteriais (60 km/h)</h3>
+            <p>Avenidas principais que ligam regiões da cidade.</p>
+
+            <h3>4. Vias de Trânsito Rápido (80 km/h)</h3>
+            <p>Fluxo livre, sem semáforos ou cruzamentos.</p>
+
+            <blockquote>
+                "Uma cidade bem planejada é aquela onde a hierarquia das vias respeita a escala humana."
+            </blockquote>
+            
+            <img src="hierarquiaDasVias.png" alt="Imagem da hierarquia das vias e traçado urbano do bairro Bom Pastor">
+        </article>
+    </div>
 </body>
 
-</html>
+</html> 
